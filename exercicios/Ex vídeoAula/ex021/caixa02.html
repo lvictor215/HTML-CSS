@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: salmon;
+            margin: 0px;
+        }
+
+        header {
+            width: auto;
+            background-color: white;
+            padding: 10px, 0px;
+            margin: 10px, 0px;
+            text-align: center;
+        }
+
+        h1#topo {
+            padding: 10px;
+        }
+
+        .tema {
+            border-radius: 15px;
+            background-color: seashell;
+        }
+
+        .titulo {
+            background-color: rgb(98, 170, 129);
+        }
+
+        nav {
+            background-color: rgb(143, 143, 143);
+            padding: 3px;
+            text-align: center;
+            box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.479);
+        }
+        
+        section#principal{
+            background-color: gray;
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav>a:hover {
+            color: rgb(184, 97, 87);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            background-color: gray;
+
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article>aside {
+            background-color: rgb(148, 148, 148);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id='topo'>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Esportes Política e tecnologia</p>
+        </section>
+        <section id="principal">
+            <article class="tema">
+                <h2 class="titulo">Notícias sobre o Brasil.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel officiis accusantium voluptatibus odit
+                    aperiam cum laudantium, enim unde, magnam itaque officia non neque ad quae ipsum in molestias eum
+                    alias. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus exercitationem sapiente
+                    illo quibusdam quas, sed eos, rem laudantium porro enim id! Et quidem dicta, vero ad maxime
+                    consequuntur. Sunt, deleniti.</p>
+                <aside>
+                    <p>Artigo Escrito por Jão</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Luiz Peixoto- Todos os direitos reservados ® - 2022</p>
+    </footer>
+</body>
+
+</html>

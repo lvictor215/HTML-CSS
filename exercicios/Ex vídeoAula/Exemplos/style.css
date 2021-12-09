@@ -1,0 +1,92 @@
+
+@charset 'UTF8';
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap'); /*Fonte Readex Pro*/
+
+*{
+    width: auto;
+}
+body{
+    background-color: #FFFFFF;
+    margin: 0px 0px 0px 0px;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding-top: 2px; 
+    border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+h1#topo{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 1.7em;
+    border: 10px;
+    padding: 15px 0%;
+}
+
+.header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+
+header>img{
+    margin: auto 0px auto 0px;
+    padding: auto;
+}
+
+header>h1{
+    margin: 0%;
+}
+
+nav {
+    background-color: #fffa4e;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 15px;
+    border-radius: 0px;
+}
+
+nav>a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #4e53ff;
+    margin-right: 2%;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+nav>a:hover {
+    color: tomato;
+}
+
+main{
+    background-color: white;
+}
+section>h2{
+    background-color: lightgray;
+}
+
+section {
+    font-weight: bolder;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #ffa24e;
+    color: white;
+    padding: 10px;
+
+}
+footer > p{
+    margin: 0px;
+}

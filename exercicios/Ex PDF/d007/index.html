@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 07</title>
+</head>
+
+<body>
+    <H1>Imagem Flexivel</H1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho de sua janela para aproveitar melhor a
+        experiência.</p>
+
+    <picture>
+        <source media="(max-width: 550px)" srcset="img/img-pp.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="img/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/img-m.png" type="image/png">
+        <source media="(max-width: 1550px)" srcset="img/img-g.png" type="image/png">
+        <source media="(max-width: 2850px)" srcset="img/img-gg.png" type="image/png">
+        <img src="img/img-ggg.png" alt="Imagem Flexivel">
+    </picture>
+</body>
+
+</html>
