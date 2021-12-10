@@ -55,11 +55,13 @@ main{
 section#img1{
     background: black url(../imagens/background001.jpg) center center fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 
 section#img2{
     background: black url(../imagens/background002.jpg) center center fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 
 .paragrafo{
@@ -73,7 +75,7 @@ section#img2{
 p.img{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgba(0, 0, 0, 0.397);
     color: white;
     
 }
