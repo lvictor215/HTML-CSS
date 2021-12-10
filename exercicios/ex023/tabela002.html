@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border: 1px solid black;
+            border-radius: 15px;
+            padding: 10px;
+            background-color: black;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: white;
+        }
+
+       
+        thead>td, th{
+            background-color: gray;
+            color: white;
+        }
+
+        tfoot:td, th{
+            background-color: gray;
+            color: white;
+        }
+        .num{
+            text-align: right;
+        }
+        .porcent{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Usando tabelas grandes</h1>
+
+    <!-- Anatomia para tabelas grandes
+        Table
+            THead
+                TR, TD, TH
+            TBody
+                TR, TD, TH
+            TFoot
+                TR, TD, TH
+     -->
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+                <th>Porcentagem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46 649 132</td>
+                <td class="porcent">21,9%</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 411 923</td>
+                <td class="porcent">10,1%</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 463 349</td>
+                <td class="porcent">8,2%</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 985 284</td>
+                <td class="porcent">7,1%</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 597 484</td>
+                <td class="porcent">5,4%</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 466 630</td>
+                <td class="porcent">5,4%</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 674 793</td>
+                <td class="porcent">4,5%</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 240 580</td>
+                <td class="porcent">4,3%</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 777 124</td>
+                <td class="porcent">4,1%</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 338 473</td>
+                <td class="porcent">3,4%</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 206 589</td>
+                <td class="porcent">3,4%</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7 153 262</td>
+                <td class="porcent">3,4%</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4 269 995</td>
+                <td class="porcent">2,0%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td class="num">177 234 618</td>
+                <td class="porcent">83,2%</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
